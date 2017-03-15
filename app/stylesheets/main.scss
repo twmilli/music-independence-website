@@ -1,0 +1,68 @@
+$border-color: rgb(42, 200, 250);
+$radius: 0.4rem;
+$table-border: 3px $border-color solid;
+
+.music-table{
+  margin: auto;
+  font-size: 1.2em;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  border-style: hidden;
+  box-shadow: 0 0 0 3px $border-color;
+
+  caption{
+    margin: 0 -3px 0 -3px;
+    font-size: 2em;
+    background-color: $border-color;
+    padding: 1rem;
+    border: $table-border;
+    border-radius: $radius $radius 0 0;
+    border-bottom: none;
+  }
+
+  tr{
+    border-bottom: 3px solid $border-color;
+  }
+}
+
+.search-bar{
+  background-color: white;
+  color: black;
+  width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+
+}
+
+.search-bar input{
+  background:none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+}
+
+.bottom-label{
+  text-align: center;
+}
+.link-wrap{
+  text-align: center;
+  .amper-link{
+    text-decoration: none;
+    color: black;
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .amper-link:hover{
+    background-color: $border-color;
+    color: white;
+  }
+}
