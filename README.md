@@ -7,7 +7,7 @@ What is it?
   
 How do I use it?
 
-&nbsp;&nbsp;&nbsp;&nbsp;Download and configure the (program)[https://github.com/twmilli/music-independendence] (run it for the first time and it will automatically start the configuration process), then start the program as a client.
+&nbsp;&nbsp;&nbsp;&nbsp;Download and configure the [program](https://github.com/twmilli/music-independendence) (run it for the first time and it will automatically start the configuration process), then start the program as a client.
     
   
 I did that. Now what?
