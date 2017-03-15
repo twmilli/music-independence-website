@@ -13,11 +13,10 @@ var port = 3000;
 http.listen(port, () => {
         console.log('listening on port: ' + port);
     });
-
 var net = require('net');
 
 var server = net.createServer(function(socket) {
-	socket.write("1;0.00;Blank Space;Taylor Swift;3:30;0;\r\n");
+	/*socket.write("1;0.00;Blank Space;Taylor Swift;3:30;0;\r\n");
 	socket.pipe(socket);
   setTimeout(function(){
     socket.write("2;0.00;22;Taylor Swift;3:30;0;\r\n");
@@ -51,7 +50,7 @@ var server = net.createServer(function(socket) {
   }, 9500);
   setTimeout(function(){
     socket.write("12;0.00;22;Taylor Swift;3:30;0;\r\n");
-  }, 10000);
+  }, 10000);*/
 });
 
 server.listen(1025, '127.0.0.1');

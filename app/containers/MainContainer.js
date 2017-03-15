@@ -21,19 +21,19 @@ var MainContainer = React.createClass({
   },
   getInitialState: function(){
     return{
-      songList:[
-        {id: 0,
-        name: 'SWAG',
+      displaySongs:[
+        /*{id: 0,
+        name: 'DEBUG',
         price: 'free',
-        artist: 'SWAG',
-        downloads: 0}
+        artist: 'DEBUG',
+        downloads: 0}*/
       ],
       displaySongs:[
-        {id: 0,
-        name: 'SWAG',
+        /*{id: 0,
+        name: 'DEBUG',
         price: 'free',
-        artist: 'SWAG',
-        downloads: 0}
+        artist: 'DEBUG',
+        downloads: 0}*/
       ]
     }
   },
